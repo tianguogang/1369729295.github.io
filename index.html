@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>记事本</title>
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <Script src="../js/note.js"></Script>
+    <link rel="stylesheet" href="../css/frame.css">
+    <link rel="stylesheet" href="../css/note.css">
+</head>
+
+
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <div>你正在访问的是小刚的个人网站，不许乱点哦！</div>
+        <div class="navigation"><span><a href="html/LoginPage.html">注册</a></span> <span><a href="html/LoginPage.html">登录</a></span> <span><a href="">忘记密码</a></span></div>
+    </header>
+    <h1 class="theme">刚笨笨和茹抱抱的记事本</h1>
+    <!-- 正文部分 -->
+    <h1>我是一棵大臭蛋</h1>
+    <section>
+        <div class="add">
+            <h2>添加事件</h2>
+            <form action="NoteServlet" method="post">
+                <table>
+                    <tr>
+                        <td>dear</td>
+                        <td><input name="dear" value="刚笨笨" type="radio">刚笨笨</td>
+                        <td><input name="dear" value="茹抱抱" type="radio">茹抱抱</td>
+                    </tr>
+
+                    <tr>
+                        <td>incident</td>
+                        <td><input type="text" class="thing" name="thing"></td>
+                        <td><button id="submit"  >完<span class="xin">❤</span>成</button></td>
+
+                    </tr>
+
+                </table>
+            </form>
+
+        </div>
+        <div class="display">
+            <h2>显示茹抱抱(づ｡◕‿‿◕｡)づ的甜蜜日常</h2>
+            <table class="addInfor">
+
+                <td>dear</td>
+                <td class="thing">thing</td>
+                <td>time</td>
+
+
+
+
+            </table>
+
+        </div>
+
+
+    </section>
+
+    <!-- 尾部 -->
+    <footer class="footer">
+        <div>2021-2022 tbbrbb 田国刚个人开发，若有不足望指正</div>
+        <div>ICP备案号：<a href="https://beian.miit.gov.cn">陕ICP备2021008949号</a></div>
+        <div>地址：陕西省咸阳市彬州市 邮政编码：713503</div> </footer>
+</body>
+
+</html>
